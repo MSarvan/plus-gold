@@ -1,0 +1,30 @@
+.shark-container {
+  width: 100%;
+  display: flex;
+  background: linear-gradient(90deg, #0076c0 0%, #01136b 100.7%);
+  cursor: pointer;
+  height: 55px;
+  position: relative;
+
+  .shark-img {
+    width: 100%;
+    max-height: 100%;
+    z-index: 1;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    font-size: 18px;
+    color: #fff;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.disable-shark-container {
+  display: none;
+}

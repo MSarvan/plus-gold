@@ -1,0 +1,116 @@
+@import "../styles/variables";
+
+.hero-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) -27.14%,
+    #fffadf 100%
+  );
+  width: 100%;
+  padding: 2rem 0 4rem 0;
+
+  .hero-container {
+    display: flex;
+    min-width: 88%;
+    max-width: 88%;
+    margin: 0 auto;
+
+    .hero-text-section {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .hero-textarea {
+        .save-smartly-text {
+          color: #343a40;
+          font-size: 33.204px;
+          font-weight: 600;
+          letter-spacing: 1px;
+          margin: 0 0 1rem 0;
+        }
+
+        .gold-text {
+          color: $gold-color;
+          font-family: "Helvetica Neue", sans-serif;
+          font-size: 92px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 55px;
+          letter-spacing: 0.1em;
+          margin: 0 0 1rem 0;
+        }
+
+        .extra-gold-text {
+          font-size: 22.3px;
+          color: rgba(43, 43, 43, 1);
+          font-weight: 300;
+          letter-spacing: 1px;
+          font-family: "Helvetica Neue", Arial, sans-serif !important;
+        }
+
+        .saving-div {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+
+          button {
+            background: $button-color;
+            color: white;
+            padding: 0.75rem 1rem;
+            border-radius: 2rem;
+            cursor: pointer;
+            border: none;
+            font-size: 18px !important;
+            font-weight: 400;
+          }
+
+          span {
+            border: 1px solid #dee2e6;
+            padding: 0.75rem 1rem;
+            background: white;
+            font-weight: 350 !important;
+            border-radius: 2rem;
+            font-family: "Poppins", sans-serif !important;
+            color: #111;
+            letter-spacing: 0.5px;
+            font-style: normal;
+            font-size: 20.138px;
+          }
+        }
+
+        .powered-div {
+          margin-top: 1rem;
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+
+          .powered-text {
+            color: #686868;
+            margin: 0.25rem;
+          }
+        }
+      }
+    }
+
+    .hero-img-section {
+      width: 50%;
+      display: flex;
+      align-items: center;
+
+      .hero-bgImg {
+        background: url("https://www.plusgold.in/images/sonkshibackgroundImage.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+
+        .heroImg {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

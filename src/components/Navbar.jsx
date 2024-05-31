@@ -13,7 +13,7 @@ const Navbar = () => {
           <div>Start Saving</div>
           <div>Gold Rush Festival</div>
           <div>Partner with us</div>
-          <div className="download-btn">Download App</div>
+          <button className="download-btn">Download App</button>
         </div>
       </nav>
     </div>

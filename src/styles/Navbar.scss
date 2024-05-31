@@ -1,0 +1,42 @@
+@import "../styles/variables";
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid #FFF6E3;
+
+  nav {
+    min-width: 88%;
+    max-width: 88%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .logo {
+      display: flex;
+      cursor: pointer;
+    }
+
+    .nav-items {
+      display: flex;
+      gap: 2.5rem;
+      align-items: center;
+
+      div {
+        cursor: pointer;
+        color: #141414;
+        font-weight: 300;
+      }
+
+      .download-btn {
+        color: white;
+        background: $button-color;
+        padding: 0.75rem 1.75rem;
+        border-radius: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

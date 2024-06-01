@@ -10,6 +10,7 @@ import SharkTankContainer from "./components/SharkTankContainer";
 import LifeGoalsSection from "./components/LifeGoalsSection";
 import PriceTrendSection from "./components/PriceTrendSection";
 import TrustSection from "./components/TrustSection";
+import MediaSection from "./components/MediaSection";
 
 function App() {
   const [showShark, setShowShark] = useState(true);
@@ -35,6 +36,7 @@ function App() {
         <LifeGoalsSection />
         <PriceTrendSection />
         <TrustSection />
+        <MediaSection />
       </div>
     </div>
   );

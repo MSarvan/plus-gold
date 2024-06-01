@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import SaveSection from "./components/SaveSection";
 import SharkContainer from "./components/SharkContainer";
 import "./styles/App.scss";
+import SharkTankContainer from "./components/SharkTankContainer";
 
 function App() {
   const [showShark, setShowShark] = useState(true);
@@ -27,6 +28,7 @@ function App() {
         <HeroSection />
         <SaveSection />
         <AppWorkSection />
+        <SharkTankContainer />
       </div>
     </div>
   );

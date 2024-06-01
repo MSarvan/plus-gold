@@ -1,0 +1,38 @@
+.trust-section {
+  width: 100%;
+
+  .trust-container {
+    min-width: 88%;
+    max-width: 88%;
+    margin: 2rem auto;
+
+    .trust-heading-gr {
+      font-size: 3.5rem;
+      font-weight: 700;
+      font-family: "Helvetica Neue", Arial, sans-serif !important;
+      letter-spacing: 0.56px;
+      color: #2b2b2b;
+      text-align: center;
+      margin: 0;
+    }
+
+    .trust-sub-heading-gr {
+      font-size: 1.5rem;
+      font-weight: 300;
+      font-family: "Helvetica Neue", Arial, sans-serif !important;
+      letter-spacing: 1px;
+      color: #2b2b2b;
+      text-align: center;
+      margin-top: 0.75rem;
+    }
+
+    .jwellers-div {
+      width: 100%;
+      margin: 4rem 0;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

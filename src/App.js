@@ -9,6 +9,7 @@ import "./styles/App.scss";
 import SharkTankContainer from "./components/SharkTankContainer";
 import LifeGoalsSection from "./components/LifeGoalsSection";
 import PriceTrendSection from "./components/PriceTrendSection";
+import TrustSection from "./components/TrustSection";
 
 function App() {
   const [showShark, setShowShark] = useState(true);
@@ -33,6 +34,7 @@ function App() {
         <SharkTankContainer />
         <LifeGoalsSection />
         <PriceTrendSection />
+        <TrustSection />
       </div>
     </div>
   );

@@ -39,6 +39,7 @@ function App() {
         <TrustSection />
         <MediaSection />
         <DownloadSection />
+        <Footer />
       </div>
     </div>
   );

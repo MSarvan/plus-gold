@@ -1,0 +1,46 @@
+.download-section {
+  width: 100%;
+
+  .download-container {
+    display: flex;
+    min-width: 70%;
+    max-width: 70%;
+    margin: 2rem auto;
+    border-radius: 45px;
+    background: #fffaf1;
+    gap: 4rem;
+
+    .download-left-area {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 2rem 0 2rem 3rem;
+
+      .download-heading-gr {
+        font-size: 3.5rem;
+        font-weight: 700;
+        font-family: "Helvetica Neue", Arial, sans-serif !important;
+        letter-spacing: 0.56px;
+        color: #2b2b2b;
+        text-align: left;
+        margin: 0;
+      }
+
+      .download-sub-heading-gr {
+        font-size: 1.25rem;
+        font-weight: 400;
+        font-family: "Helvetica Neue", Arial, sans-serif !important;
+        letter-spacing: 1px;
+        color: #2b2b2b;
+        text-align: left;
+        margin: 2rem 0;
+      }
+    }
+
+    .download-right-area {
+      display: flex;
+      padding: 2rem 4rem 0 0;
+    }
+  }
+}

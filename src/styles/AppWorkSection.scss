@@ -1,0 +1,111 @@
+@import "../styles/variables";
+
+.appwork-section {
+  width: 100%;
+
+  .appwork-container {
+    min-width: 70%;
+    max-width: 70%;
+    margin: 4rem auto;
+    border-radius: 51.45px;
+
+    .how-does-the-app-work-heading-gr {
+      font-size: 3.5rem;
+      font-weight: 700;
+      font-family: "Helvetica Neue", Arial, sans-serif !important;
+      letter-spacing: 0.56px;
+      color: #2b2b2b;
+      text-align: center;
+      margin: 0;
+    }
+
+    .how-does-the-app-work-sub-heading-gr {
+      font-size: 1.5rem;
+      font-weight: 300;
+      font-family: "Helvetica Neue", Arial, sans-serif !important;
+      letter-spacing: 1px;
+      color: #2b2b2b;
+      text-align: center;
+      margin-top: 0.75rem;
+    }
+
+    .videos-container {
+      display: flex;
+      padding: 2.5rem;
+      margin-top: 3rem;
+      border: 1px solid #ffe4b3;
+      background: #fffaf1;
+      border-radius: 2rem;
+      justify-content: space-between;
+
+      .each-video-div {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 3);
+
+        .each-video {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 0 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 27.525px !important;
+            border: 0.944px solid #5e3f00 !important;
+          }
+
+          h5 {
+            margin: 0.75rem 0;
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+
+          p {
+            margin: 0;
+            font-size: 1.15rem;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+    }
+
+    .cards-container {
+      display: flex;
+      margin-top: 3rem;
+      gap: 1rem;
+      justify-content: space-between;
+
+      .each-card-div {
+        display: flex;
+        width: calc(100% / 4);
+
+        .each-card {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 1.5rem;
+          background: rgba(255, 250, 241, 1);
+          border: 0.74px solid rgba(255, 228, 179, 1);
+          border-radius: 20px;
+          gap: 1rem;
+
+          .caption-div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            p {
+              margin: 0;
+              font-size: 1.1rem;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}

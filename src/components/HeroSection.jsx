@@ -21,17 +21,17 @@ const HeroSection = () => {
               <div>
                 <img
                   src="https://www.plusgold.in/images/augmontLogo.svg"
-                  alt=""
+                  alt="augmontLogo"
                 />
               </div>
               <div>
                 <img
                   src="https://www.plusgold.in/images/cashFreeSvnLogo.svg"
-                  alt=""
+                  alt="cashFreeSvnLogo"
                 />
               </div>
               <div>
-                <img src="https://www.plusgold.in/images/npciLogo.svg" alt="" />
+                <img src="https://www.plusgold.in/images/npciLogo.svg" alt="npciLogo" />
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
             <div className="heroImg">
               <img
                 src="https://www.plusgold.in/images/sonakshiSinha.svg"
-                alt=""
+                alt="sonakshiSinha"
               />
             </div>
           </div>

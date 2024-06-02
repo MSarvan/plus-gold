@@ -3,7 +3,6 @@
 .save-section {
   width: 100%;
   display: flex;
-  padding: 0 2rem;
 
   .save-container {
     display: flex;
@@ -68,6 +67,7 @@
   }
 
   @media (max-width: 1200px) {
+    padding: 0 2rem;
     .save-container {
       max-width: 1140px;
     }

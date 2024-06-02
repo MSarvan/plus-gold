@@ -3,7 +3,7 @@
   display: flex;
   background: linear-gradient(90deg, #0076c0 0%, #01136b 100.7%);
   cursor: pointer;
-  height: 55px;
+  max-height: 55px;
   position: relative;
 
   .shark-img {
@@ -22,6 +22,30 @@
     display: flex;
     align-items: center;
     height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .close-btn {
+      img {
+        width: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .close-btn {
+      img {
+        width: 7px;
+      }
+    }
+  }
+
+  @media (max-width: 385px) {
+    .close-btn {
+      img {
+        width: 5px;
+      }
+    }
   }
 }
 

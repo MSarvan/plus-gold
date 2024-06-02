@@ -108,4 +108,102 @@
       }
     }
   }
+
+  @media (max-width: 1400px) {
+    .appwork-container {
+      max-width: 1320px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    padding: 0 2rem;
+    .appwork-container {
+      max-width: 1140px;
+
+      .cards-container {
+        .each-card-div {
+          .each-card {
+            padding: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .appwork-container {
+      max-width: 960px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .appwork-container {
+      max-width: 720px;
+      .how-does-the-app-work-heading-gr {
+        font-size: 44px;
+      }
+      .how-does-the-app-work-sub-heading-gr {
+        font-size: 22px;
+      }
+
+      .videos-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem 1rem;
+
+        .each-video-div {
+          width: 45%;
+        }
+      }
+
+      .cards-container {
+        flex-wrap: wrap;
+        padding: 0 3rem;
+
+        .each-card-div {
+          width: 45%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .appwork-container {
+      max-width: 540px;
+
+      .videos-container {
+        gap: 2rem 0;
+        .each-video-div {
+          width: 80%;
+        }
+      }
+
+      .cards-container {
+        justify-content: center;
+        .each-card-div {
+          width: 65%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding: 0 0.25rem;
+    .appwork-container {
+      .videos-container {
+        .each-video-div {
+          width: 90%;
+          .each-video {
+            text-align: center;
+          }
+        }
+      }
+      .cards-container {
+        .each-card-div {
+          width: 100%;
+        }
+      }
+    }
+  }
 }

@@ -117,4 +117,113 @@
       }
     }
   }
+
+  @media (max-width: 1024px) {
+    .hero-container {
+      .hero-text-section {
+        .hero-textarea {
+          .saving-div {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .hero-container {
+      flex-direction: column;
+      align-items: center;
+      min-width: 100%;
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-container {
+      .hero-text-section {
+        width: 100%;
+        .hero-textarea {
+          width: 100%;
+          .save-smartly-text {
+            font-size: 28px;
+          }
+          .gold-text {
+            font-size: 75px;
+            letter-spacing: 0.09em;
+          }
+          .extra-gold-text {
+            font-size: 18px;
+          }
+          .saving-div {
+            flex-direction: row;
+            align-items: center;
+
+            button {
+              padding: 5.084px 7.526px;
+              font-size: 16px;
+            }
+
+            span {
+              padding: 4.16px 12.78px 3.48px 12.89px;
+              font-size: 17.138px;
+            }
+          }
+        }
+      }
+      .hero-img-section {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .hero-container {
+      .hero-text-section {
+        .hero-textarea {
+          .saving-div {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .powered-div {
+            gap: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    .hero-container {
+      .hero-text-section {
+        .hero-textarea {
+          .powered-div {
+            gap: 0.5rem;
+
+            .powered-text {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 320px) {
+    .hero-container {
+      .hero-text-section {
+        .hero-textarea {
+          .powered-div {
+            gap: 0.5rem;
+
+            img {
+              width: 60px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

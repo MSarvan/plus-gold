@@ -44,6 +44,14 @@
       .sharktank-vid-div {
         display: flex;
         justify-content: center;
+        max-width: 500px;
+        div {
+          max-width: 100%;
+          video {
+            max-width: 100%;
+            border-radius: 25px;
+          }
+        }
       }
     }
   }
@@ -88,11 +96,12 @@
           width: 33.33%;
           flex: 0 0 auto;
         }
-        .sharktank-vid-div {
-          img {
-            width: 100%;
-          }
-        }
+        // .sharktank-vid-div {
+        //   video {
+        //     width: 100%;
+        //     border-radius: 25px;
+        //   }
+        // }
       }
     }
   }

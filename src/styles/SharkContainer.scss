@@ -32,6 +32,12 @@
     }
   }
 
+  @media (max-width: 576px) {
+    .close-btn {
+      right: 1rem;
+    }
+  }
+
   @media (max-width: 480px) {
     .close-btn {
       img {

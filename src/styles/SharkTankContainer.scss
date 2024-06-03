@@ -45,4 +45,28 @@
       max-width: 1320px;
     }
   }
+
+  @media (max-width: 1200px) {
+    .sharktank-container {
+      max-width: 1140px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .sharktank-container {
+      max-width: 960px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sharktank-container {
+      max-width: 720px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .sharktank-container {
+      max-width: 540px;
+    }
+  }
 }

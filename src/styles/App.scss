@@ -6,7 +6,7 @@
 
   .content {
     width: 100%;
-    height: calc(100% - 130px);
+    height: -webkit-fill-available;
     overflow-y: scroll;
   }
 }

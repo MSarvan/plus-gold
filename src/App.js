@@ -18,18 +18,9 @@ function App() {
 
   return (
     <div className="App">
-      {showShark ? (
-        <SharkContainer setShowShark={setShowShark} />
-      ) : (
-        ""
-      )}
+      {showShark ? <SharkContainer setShowShark={setShowShark} /> : ""}
       <Navbar />
-      <div
-        className="content"
-        style={{
-          height: showShark ? "calc(100% - 130px)" : "calc(100% - 75px)",
-        }}
-      >
+      <div className="content">
         <HeroSection />
         <SaveSection />
         <AppWorkSection />

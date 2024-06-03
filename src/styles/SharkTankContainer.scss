@@ -39,4 +39,10 @@
       }
     }
   }
+
+  @media (max-width: 1400px) {
+    .sharktank-container {
+      max-width: 1320px;
+    }
+  }
 }

@@ -167,7 +167,7 @@
     align-items: center;
     padding: 1rem;
     gap: 1rem;
-    background: #FAFAFA;
+    background: #fafafa;
     // margin-bottom: 2rem;
 
     div {
@@ -177,6 +177,112 @@
 
       img {
         height: 50%;
+      }
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .footer-container {
+      margin-top: -16rem;
+      padding: 20rem 2rem 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .money-section {
+      .money-right-section {
+        top: -3rem;
+        width: 40%;
+      }
+    }
+    .footer-container {
+      .address-container {
+        min-width: 100%;
+        margin: 2rem 0;
+        .address-partition {
+          gap: 3rem;
+          flex-direction: column;
+          align-items: center;
+          .footer-items-div {
+            gap: 0;
+            justify-content: space-between;
+            width: 60%;
+          }
+        }
+      }
+      .line {
+        min-width: 100%;
+      }
+      .copyright-section {
+        min-width: 100%;
+      }
+      .qn-ans-section {
+        min-width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    margin-top: 7rem;
+    .money-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      .money-left-section {
+        top: 0;
+        align-items: center;
+        text-align: center;
+      }
+      .money-right-section {
+        top: 0;
+      }
+    }
+    .footer-container {
+      margin-top: -26rem;
+      padding: 26rem 2rem 1rem;
+      .address-container {
+        .address-partition {
+          .footer-items-div {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    .footer-container {
+      margin-top: -29rem;
+      padding: 29rem 2rem 1rem;
+      .copyright-section {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .footer-container {
+      margin-top: -32rem;
+      padding: 32rem 2rem 1rem;
+    }
+    .money-section {
+      .money-left-section {
+        img {
+          width: 85%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    .footer-container {
+      .address-container {
+        .address-partition {
+          .footer-items-div {
+            width: 90%;
+          }
+        }
       }
     }
   }

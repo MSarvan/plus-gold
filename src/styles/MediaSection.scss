@@ -90,6 +90,7 @@
   @media (max-width: 768px) {
     .media-container {
       max-width: 720px;
+      overflow: hidden;
 
       .media-heading-gr {
         font-size: 44px;

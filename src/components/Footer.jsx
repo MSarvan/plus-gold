@@ -319,7 +319,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="each-faq-ans">
-            <div className="each-faq-qn">Q : Which gold scheme is the best?</div>
+            <div className="each-faq-qn">
+              Q : Which gold scheme is the best?
+            </div>
             <div className="each-faq-as">
               The best gold scheme depends on your investment goals and risk
               appetite. At PlusGold, we offer a range of schemes tailored to
@@ -328,7 +330,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="each-faq-ans">
-            <div className="each-faq-qn">Q : What is the 11-month gold scheme?</div>
+            <div className="each-faq-qn">
+              Q : What is the 11-month gold scheme?
+            </div>
             <div className="each-faq-as">
               The 10-month gold scheme is a popular investment option offered by
               PlusGold, allowing investors to deposit funds for the duration of
@@ -350,8 +354,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="seen-section">
-        <div>As seen on</div>
-        <div><img src="https://www.plusgold.in/images/sharkTankFooter.svg" alt="" /></div>
+        <div className="seen-text">As seen on</div>
+        <div className="seen-img">
+          <img
+            src="https://www.plusgold.in/images/sharkTankFooter.svg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );

@@ -145,8 +145,10 @@
     .hero-container {
       .hero-text-section {
         width: 100%;
+        display: flex;
+        justify-content: center;
         .hero-textarea {
-          width: 100%;
+          width: fit-content;
           .save-smartly-text {
             font-size: 28px;
           }

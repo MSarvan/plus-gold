@@ -20,7 +20,7 @@ const LifeGoalsSection = () => {
           </div>
           <div className="each-save-for-card-div">
             <div className="each-save-for-card">
-              <img src={anniversary} alt="anniversary" style={{ width: "100%" }} />
+              <img src={anniversary} alt="anniversary" />
             </div>
           </div>
           <div className="each-save-for-card-div">

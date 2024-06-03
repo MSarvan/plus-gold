@@ -94,4 +94,73 @@
       transform: scaleX(1.1);
     }
   }
+
+  @media (max-width: 1400px) {
+    .lifegoals-container {
+      max-width: 1320px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .lifegoals-container {
+      max-width: 1140px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .lifegoals-container {
+      max-width: 960px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .lifegoals-container {
+      max-width: 720px;
+
+      .save-for-heading-gr {
+        font-size: 44px;
+      }
+      .save-for-sub-heading-gr {
+        font-size: 22px;
+      }
+      .save-for-cards-container {
+        padding: 0;
+
+        .each-save-for-card-div {
+          .each-save-for-card {
+            padding: 0;
+          }
+        }
+      }
+
+      .start-now-div {
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .lifegoals-container {
+      max-width: 540px;
+
+      .save-for-cards-container {
+        overflow-x: scroll;
+
+        .each-save-for-card-div {
+          min-width: 100%;
+          max-height: 290px;
+          .each-save-for-card {
+            img {
+              width: unset;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding: 0 0.5rem;
+  }
 }

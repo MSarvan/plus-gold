@@ -4,7 +4,7 @@
   .trust-container {
     min-width: 88%;
     max-width: 88%;
-    margin: 2rem auto;
+    margin: 4rem auto 2rem;
 
     .trust-heading-gr {
       font-size: 3.5rem;
@@ -34,5 +34,46 @@
         width: 100%;
       }
     }
+  }
+
+  @media (max-width: 1400px) {
+    .trust-container {
+      max-width: 1320px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .trust-container {
+      max-width: 1140px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .trust-container {
+      max-width: 960px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .trust-container {
+      max-width: 720px;
+
+      .trust-heading-gr {
+        font-size: 44px;
+      }
+      .trust-sub-heading-gr {
+        font-size: 22px;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .trust-container {
+      max-width: 540px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding: 0 0.5rem;
   }
 }
